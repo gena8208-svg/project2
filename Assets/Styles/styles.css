@@ -223,12 +223,7 @@ body {
     text-transform: uppercase;
     color: #fff;
     margin: 0;
-
-    /* ВАЖНО: управляем расстоянием между словами */
     word-spacing: 19px;
-    /* Подберите нужное значение по макету */
-
-    /* Для точной настройки можно добавить: */
     letter-spacing: normal;
 
 }
