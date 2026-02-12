@@ -357,7 +357,6 @@ body {
     display: grid;
     grid-template-columns: 336px auto;
     margin-top: 146px;
-    border: 1px solid red;
     gap: 24px;
 }
 .logo-container {
