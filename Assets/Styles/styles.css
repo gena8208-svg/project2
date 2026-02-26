@@ -205,20 +205,6 @@ body {
     margin-right: 50px;
 }
 
-/*word-space работает только для целой строки но расстояние не сходится, если нужно
-разное расстояние то только через span*/
-
-/* .cover__description span{
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #fff;
-}
-.cover__description-text-1{
-    margin-right:5px;
-}
- */
 .cover__subtitle {
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
@@ -262,13 +248,11 @@ body {
     gap: 29px;
 }
 
-
 .lots__card-list li {
     width: 331px;
     height: 563px;
     flex-grow: 1;
 }
-
 
 .card-link {
     display: block;
@@ -278,7 +262,6 @@ body {
     width: 100%;
 }
 
-
 .card {
     position: relative;
     width: 100%;
@@ -286,10 +269,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-
 }
-
 
 .card_type_film .card {
     background-image: url(../Images/film-card.png);
@@ -329,13 +309,11 @@ body {
     padding-top: 51px;
 }
 
-
 .card__description {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 400;
     margin: 0;
-
 }
 
 .description-card_type_film {
@@ -351,8 +329,6 @@ body {
     font-size: 20px;
     font-weight: 400;
     margin: 0;
-
-
 }
 
 .more-container {
@@ -382,6 +358,15 @@ body {
 
 }
 
+.about-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    line-height: 24px;
+
+}
+
 .about__title {
     margin-top: 149px;
     font-family: 'Raleway', sans-serif;
@@ -390,25 +375,25 @@ body {
     text-transform: uppercase;
 }
 
-.about-text {
-    /* margin-top: 134px; */
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
+.content {
+    margin-top: 112px;
 }
+
+.content__about {
+    max-width: 690px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 
 .about-text p {
-    margin-bottom: 22px;
-    text-align: left;
-}
-
-.content {
-    margin-top: 114px;
+    margin: 0;
+    padding: 0;
 }
 
 .footer {
-    padding-top: 159px;
+    padding-top: 180px;
     max-width: 1000px;
     width: 100%;
     display: grid;
@@ -422,11 +407,6 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-}
-
-.footer__menu {
-    /*  justify-self: center;
-    align-self: start; */
 }
 
 .footer__menu-list {
